@@ -2,6 +2,9 @@
 
 Неделя 2: Жизненный цикл Activity и Fragment
 
+![image](https://user-images.githubusercontent.com/77270310/179490599-7ef7fa49-f934-4891-bc4a-4bef2d097dcb.png)
+
+
 2.1. Сделать новое мобильное приложение в котором завести два активити, 
 одна открывается из другой, и из нее открывается AlertDialog
 
