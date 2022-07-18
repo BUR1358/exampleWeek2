@@ -4,6 +4,8 @@
 
 ![image](https://user-images.githubusercontent.com/77270310/179490599-7ef7fa49-f934-4891-bc4a-4bef2d097dcb.png)
 
+![image](https://user-images.githubusercontent.com/77270310/179490766-5274fa1f-755a-4e04-9c0a-9f0ed476b1a5.png)
+
 
 2.1. Сделать новое мобильное приложение в котором завести два активити, 
 одна открывается из другой, и из нее открывается AlertDialog
