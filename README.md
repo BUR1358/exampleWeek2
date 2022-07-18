@@ -21,6 +21,29 @@
 2.5. Посмотреть картинку про жизненный цикл Fragment в документации, 
 выяснить все ли понятно, если что-то непонятно, надо это прояснить
 
+Activity LifeCycle                           Fragment LifeCycle
+onCreate()                                    onAttach()
+    |                                              |
+onStart()______onRestart()                     onCreate()
+    |             |                                |
+onResume()        |                            onCreateView()
+    |             |                                |
+onPause()         |                            onActivityCreated()
+    |             |                                |
+onStop()__________|                             onStart()
+    |                                              |
+onDestroy()                                     onResume()
+                                                   |
+                                                onPause()
+                                                   |
+                                                onStop()
+                                                   |
+                                                onDestroyView()
+                                                   |
+                                                onDestroy()
+                                                   |
+                                                onDetach()
+
 2.6. Выявить отличия жизненного цикла фрагмента от жизненного цикла 
 активити, ответить на вопрос - для чего нужны эти отличия, почему они 
 возникли?
